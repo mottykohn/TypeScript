@@ -250,11 +250,11 @@ interface Int8Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -278,11 +278,11 @@ interface Uint8Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -307,12 +307,12 @@ interface Uint8ClampedArray {
     entries(): IterableIterator<[number, number]>;
 
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
 
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -338,12 +338,12 @@ interface Int16Array {
     entries(): IterableIterator<[number, number]>;
 
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
 
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -367,11 +367,11 @@ interface Uint16Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -395,11 +395,11 @@ interface Int32Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -423,11 +423,11 @@ interface Uint32Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -451,11 +451,11 @@ interface Float32Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
@@ -479,11 +479,11 @@ interface Float64Array {
      */
     entries(): IterableIterator<[number, number]>;
     /**
-     * Returns an list of keys in the array
+     * Returns an iterable of keys in the array
      */
     keys(): IterableIterator<number>;
     /**
-     * Returns an list of values in the array
+     * Returns an iterable of values in the array
      */
     values(): IterableIterator<number>;
 }
